@@ -1,0 +1,48 @@
+header {
+  height: 75vh;
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: rgb(33, 37, 41);
+  color: white !important;
+}
+
+.tab {
+  max-width: 850px;
+}
+
+.tab-pane p {
+  max-width: 400px;
+}
+
+.img-tab {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.button-tab {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  background-color: #ffffff;
+  color: rgb(5, 5, 5);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
